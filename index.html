@@ -9,164 +9,540 @@
   </head>
   <body>
     <header>
-      <div class="header-container">
-        <div id="header-nav-menu-option">
-          <button class="menu-option">
+      <div id="header-container">
+        <div id="header-menu">
+          <button class="menu-button">
             <img src="./assets/svg/menu-option.svg" alt="menu option" />
           </button>
-          <span class="span-header-nav-options-desktop">Menu</span>
+          <span class="span-header-desktop">Menu</span>
         </div>
-        <div id="header-nav-logo">
-          <img src="./assets/svg/logo.svg" alt="GameStop Logo" />
+        <div id="header-logo">
+          <a href="https://www.gamestop.com/" id="logo">
+            <img src="./assets/svg/logo.svg" alt="GameStop Logo" />
+          </a>
         </div>
-        <div id="header-nav-options">
-          <div id="header-nav-trade">
-            <img src="./assets/svg/trade.svg" alt="trade option" />
-            <span class="span-header-nav-options-mobile">Trade-In</span>
-          </div>
-          <div id="header-nav-gamestop-pro">
-            <img src="./assets/svg/GameStop-Pro.svg" alt="GameStop Pro option" />
-            <span class="span-header-nav-options-desktop">GameStop Pro</span>
-          </div>
-          <div id="header-nav-sign-in">
-            <img src="./assets/svg/signin.svg" alt="Sign In option" />
-            <span class="span-header-nav-options-mobile">Sign In</span>
-          </div>
-          <div>
-            <img src="./assets/svg/cart.svg" alt="Cart option" />
-            <span class="span-header-nav-options-desktop">Cart</span>
-          </div>
-        </div>
-        <div id="header-form">
-          <form action="/search/" method="get">
+        <div id="header-search">
+          <form action="/search/" method="get" id="header-form">
             <button class="submit" type="submit">
               <img src="./assets/svg/search.svg" alt="Search option" />
             </button>
             <input type="search" placeholder="Search games, consoles & more" />
           </form>
         </div>
-      </div>
-      <div id="header-nav-container">
-        <div id="header-nav-list-container">
-          <nav id="header-nav-list">
-            <ul>
-              <li>
-                <a href="">Trading Cards <img src="./assets/svg/dropdown.svg" alt="Dropdown" /></a>
-                <ul class="dropdown">
-                  <li><a href="">Graded Cards</a></li>
-                  <li><a href="">PSA Card Grading</a></li>
-                  <li><a href="">New Trading Cards</a></li>
-                  <li><a href="">Sports Trading Cards</a></li>
-                  <li><a href="">Out-Of-Print Cards</a></li>
-                </ul>
-              </li>
-              <li><a href="">Deals</a></li>
-              <li><a href="">Shop My Store</a></li>
-              <li>
-                <a href="">Collectibles <img src="./assets/svg/dropdown.svg" alt="Dropdown" /></a>
-                <ul class="dropdown">
-                  <li><a href="">Funko</a></li>
-                  <li><a href="">Figures</a></li>
-                  <li><a href="">Statues</a></li>
-                  <li><a href="">Replicas</a></li>
-                  <li><a href="">Collector's Boxes</a></li>
-                  <li><a href="">All Collectibles</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="">PlayStation 5 <img src="./assets/svg/dropdown.svg" alt="Dropdown" /></a>
-                <ul class="dropdown">
-                  <li><a href="">PS5 Consoles</a></li>
-                  <li><a href="">PS5 Games</a></li>
-                  <li><a href="">PS5 Accessories</a></li>
-                  <li><a href="">PlayStation Gifts Cards</a></li>
-                  <li><a href="">All PlayStation 5</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="">Nintendo Switch <img src="./assets/svg/dropdown.svg" alt="Dropdown" /></a>
-                <ul class="dropdown">
-                  <li><a href="">Switch Consoles</a></li>
-                  <li><a href="">Switch Games</a></li>
-                  <li><a href="">Switch Accessories</a></li>
-                  <li><a href="">Nintendo eShop Gift Cards</a></li>
-                  <li><a href="">Nintendo amiibo</a></li>
-                  <li><a href="">Switch Digital Store</a></li>
-                  <li><a href="">All Nintendo Switch</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="">Xbox Series X|S <img src="./assets/svg/dropdown.svg" alt="Dropdown" /></a>
-                <ul class="dropdown">
-                  <li><a href="">Series X|S Consoles</a></li>
-                  <li><a href="">Series X|S Games</a></li>
-                  <li><a href="">Series X|S Accessories</a></li>
-                  <li><a href="">Xbox Gift Cards</a></li>
-                  <li><a href="">Xbox Digital Store</a></li>
-                  <li><a href="">All Xbox Series X|S</a></li>
-                </ul>
-              </li>
-              <li><a href="">New Releases</a></li>
-              <li><a href="">Pre-Owned</a></li>
-              <li><a href="">Digital Store</a></li>
-              <li><a href="">Retro Gaming</a></li>
-              <li><a href="">GS Pro Credit Card</a></li>
-            </ul>
-          </nav>
-          <div id="header-nav-list-2">
-            <a href="">
-              <img src="./assets/svg/track.svg" alt="Track Order" />
-              <span>Track Order</span>
+        <div id="header-links">
+          <div id="header-link-trade">
+            <a href="https://www.gamestop.com/trade/">
+              <img src="./assets/svg/trade.svg" alt="trade option" />
             </a>
-            <div>|</div>
-            <a href="">
-              <img src="./assets/svg/ross_henderson.svg" alt="Ross Henderson Shopping Center" />
-              <span>Ross Henderson Shopping...</span>
+            <span class="span-header-nav-options-mobile">Trade-In</span>
+          </div>
+          <div id="header-link-pro">
+            <a href="https://www.gamestop.com/pro/">
+              <img src="./assets/svg/GameStop-Pro.svg" alt="GameStop Pro option" />
             </a>
+            <span class="span-header-nav-options-desktop">GameStop Pro</span>
+          </div>
+          <div id="header-link-signin">
+            <a href="https://www.gamestop.com/login/">
+              <img src="./assets/svg/signin.svg" alt="Sign In option" />
+            </a>
+            <span class="span-header-nav-options-mobile">Sign In</span>
+          </div>
+          <div id="header-link-cart">
+            <a href="https://www.gamestop.com/cart/">
+              <img src="./assets/svg/cart.svg" alt="Cart option" />
+            </a>
+            <span class="span-header-desktop">Cart</span>
           </div>
         </div>
       </div>
     </header>
     <main>
-      <section id="main-hero">
-        <div class="hero-top">
-          <picture>
-            <!-- desktop image -->
-            <source
-              media="(min-width: 768px)"
-              data-srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_1760x50_Sitewide_Strip_D.webp"
-              type="image/webp"
-              srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_1760x50_Sitewide_Strip_D.webp" />
-
-            <source
-              media="(min-width: 768px)"
-              data-srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_1760x50_Sitewide_Strip_D.jpeg"
-              type="image/jpeg"
-              srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_1760x50_Sitewide_Strip_D.jpeg" />
-            <!-- mobile image -->
-            <source
-              data-srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_575x50_Sitewide_Strip_M.webp"
-              type="image/webp"
-              srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_575x50_Sitewide_Strip_M.webp" />
-
-            <source
-              data-srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_575x50_Sitewide_Strip_M.jpeg"
-              type="image/jpeg"
-              srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_575x50_Sitewide_Strip_M.jpeg" />
-
-            <!-- default is mobile image -->
-            <img
-              class="promo-banner-bgimage lazyloaded"
-              alt=""
-              data-src="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_575x50_Sitewide_Strip_M.jpeg"
-              src="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_575x50_Sitewide_Strip_M.jpeg" />
-          </picture>
-          <div id="hero-top-text-container">
-            <span class="hero-top-text-top"><p>Pros, Save $25 When You Spend $250</p></span>
-            <span class="hero-top-text-bottom"><p>In-Store Or Online & Pick Up In-Store*</p></span>
+      <nav>
+        <div id="nav-container">
+          <ul id="nav-list">
+            <li class="dropdown">
+              <label for="trading-cards-checkbox" class="dropdown-label"><a href="https://www.gamestop.com/graded-trading-cards" class="anchor-list-1">Trading Cards</a></label>
+              <input type="checkbox" name="option" id="trading-cards-checkbox" />
+              <ul class="dropdown-content">
+                <li><a href="https://www.gamestop.com/graded-trading-cards" class="anchor-dropdown">Graded Cards</a></li>
+                <li><a href="https://www.gamestop.com/card-grading-service" class="anchor-dropdown">PSA Card Grading</a></li>
+                <li><a href="https://www.gamestop.com/toys-games/trading-cards" class="anchor-dropdown">New Trading Cards</a></li>
+                <li><a href="https://www.gamestop.com/toys-games/trading-cards/sports-trading-cards" class="anchor-dropdown">Sports Trading Cards</a></li>
+                <li>
+                  <a
+                    href="https://www.gamestop.com/toys-games/trading-cards?pmin=175.00&prefn1=franchise&prefv1=Harry%20Potter%7CNBA%7CNFL%7CPokemon%7CStar%20Wars%7CYu-Gi-Oh!"
+                    class="anchor-dropdown"
+                    >Out-Of-Print Cards</a
+                  >
+                </li>
+              </ul>
+              <img src="./assets/svg/dropdown.svg" alt="Dropdown" />
+            </li>
+            <li><a href="https://www.gamestop.com/deals" class="anchor-list">Deals</a></li>
+            <li><a href="https://www.gamestop.com/shopmystore/" class="anchor-list">Shop My Store</a></li>
+            <li class="dropdown">
+              <label for="collectibles-checkbox" class="dropdown-label"><a href="https://www.gamestop.com/home" class="anchor-list-1">Collectibles</a></label>
+              <input type="checkbox" name="option" id="collectibles-checkbox" />
+              <ul class="dropdown-content">
+                <li><a href="https://www.gamestop.com/collectibles/funko" class="anchor-dropdown">Funko</a></li>
+                <li><a href="https://www.gamestop.com/collectibles/figures" class="anchor-dropdown">Figures</a></li>
+                <li><a href="https://www.gamestop.com/collectibles/statues" class="anchor-dropdown">Statues</a></li>
+                <li><a href="https://www.gamestop.com/collectibles/replicas" class="anchor-dropdown">Replicas</a></li>
+                <li><a href="https://www.gamestop.com/collectibles/collectors-boxes" class="anchor-dropdown">Collector's Boxes</a></li>
+                <li><a href="https://www.gamestop.com/collectibles" class="anchor-dropdown">All Collectibles</a></li>
+              </ul>
+              <img src="./assets/svg/dropdown.svg" alt="Dropdown" />
+            </li>
+            <li class="dropdown">
+              <label for="playstation-checkbox" class="dropdown-label"
+                ><a href="https://www.gamestop.com/popular-consoles/playstation" class="anchor-list-1">PlayStation 5</a></label
+              >
+              <input type="checkbox" name="option" id="playstation-checkbox" />
+              <ul class="dropdown-content">
+                <li><a href="https://www.gamestop.com/consoles-hardware/playstation-5" class="anchor-dropdown">PS5 Consoles</a></li>
+                <li><a href="https://www.gamestop.com/video-games/playstation-5" class="anchor-dropdown">PS5 Games</a></li>
+                <li><a href="https://www.gamestop.com/gaming-accessories?prefn1=platform&prefv1=PlayStation%205" class="anchor-dropdown">PS5 Accessories</a></li>
+                <li><a href="https://www.gamestop.com/gift-cards?prefn1=brand&prefv1=Sony" class="anchor-dropdown">PlayStation Gifts Cards</a></li>
+                <li><a href="https://www.gamestop.com/popular-consoles/playstation" class="anchor-dropdown">All PlayStation 5</a></li>
+              </ul>
+              <img src="./assets/svg/dropdown.svg" alt="Dropdown" />
+            </li>
+            <li class="dropdown">
+              <label for="nintendo-checkbox" class="dropdown-label"
+                ><a href="https://www.gamestop.com/popular-consoles/nintendo-switch" class="anchor-list-1">Nintendo Switch</a></label
+              >
+              <input type="checkbox" name="option" id="nintendo-checkbox" />
+              <ul class="dropdown-content">
+                <li><a href="https://www.gamestop.com/consoles-hardware/nintendo-switch" class="anchor-dropdown">Switch Consoles</a></li>
+                <li><a href="https://www.gamestop.com/video-games/nintendo-switch" class="anchor-dropdown">Switch Games</a></li>
+                <li><a href="https://www.gamestop.com/gaming-accessories?prefn1=platform&prefv1=Nintendo%20Switch" class="anchor-dropdown">Switch Accessories</a></li>
+                <li><a href="https://www.gamestop.com/gift-cards?prefn1=platform&prefv1=Nintendo%20Switch" class="anchor-dropdown">Nintendo eShop Gift Cards</a></li>
+                <li><a href="https://www.gamestop.com/consoles-hardware/nintendo-switch/nintendo-switch-amiibo" class="anchor-dropdown">Nintendo amiibo</a></li>
+                <li><a href="https://www.gamestop.com/digital-store/nintendo-digital" class="anchor-dropdown">Switch Digital Store</a></li>
+                <li><a href="https://www.gamestop.com/popular-consoles/nintendo-switch" class="anchor-dropdown">All Nintendo Switch</a></li>
+              </ul>
+              <img src="./assets/svg/dropdown.svg" alt="Dropdown" />
+            </li>
+            <li class="dropdown">
+              <label for="xbox-checkbox" class="dropdown-label"><a href="https://www.gamestop.com/popular-consoles/xbox" class="anchor-list-1">Xbox Series X|S</a></label>
+              <input type="checkbox" name="option" id="xbox-checkbox" />
+              <ul class="dropdown-content">
+                <li><a href="https://www.gamestop.com/consoles-hardware/xbox-series-x%7Cs" class="anchor-dropdown">Series X|S Consoles</a></li>
+                <li><a href="https://www.gamestop.com/video-games/xbox-series-x%7Cs" class="anchor-dropdown">Series X|S Games</a></li>
+                <li>
+                  <a href="https://www.gamestop.com/gaming-accessories?prefn1=platform&prefv1=Xbox%20Series%20S%7CXbox%20Series%20X" class="anchor-dropdown"
+                    >Series X|S Accessories</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.gamestop.com/gift-cards?prefn1=platform&prefv1=Xbox%20360%7CXbox%20One%7CXbox%20Series%20X" class="anchor-dropdown">Xbox Gift Cards</a>
+                </li>
+                <li><a href="https://www.gamestop.com/digital-store/xbox-digital" class="anchor-dropdown">Xbox Digital Store</a></li>
+                <li><a href="https://www.gamestop.com/popular-consoles/xbox" class="anchor-dropdown">All Xbox Series X|S</a></li>
+              </ul>
+              <img src="./assets/svg/dropdown.svg" alt="Dropdown" />
+            </li>
+            <li><a href="https://www.gamestop.com/collection/new-releases" class="anchor-list">New Releases</a></li>
+            <li><a href="https://www.gamestop.com/preowned" class="anchor-list">Pre-Owned</a></li>
+            <li><a href="https://www.gamestop.com/digital-store" class="anchor-list">Digital Store</a></li>
+            <li><a href="https://www.gamestop.com/video-games/retro-gaming" class="anchor-list">Retro Gaming</a></li>
+            <li><a href="https://www.gamestop.com/credit" class="anchor-list">GS Pro Credit Card</a></li>
+          </ul>
+          <div id="nav-list-2">
+            <a href="https://www.gamestop.com/order/search">
+              <img src="./assets/svg/track.svg" alt="Track Order" />
+            </a>
+            <span>Track Order</span>
+            <div>|</div>
+            <a href="https://www.gamestop.com/search/?store=3878">
+              <img src="./assets/svg/ross_henderson.svg" alt="Ross Henderson Shopping Center" />
+            </a>
+            <span>Ross Henderson Shopping...</span>
           </div>
         </div>
-        <div id="hero"></div>
+      </nav>
+      <section id="hero">
+        <div id="hero-promo">
+          <a href="https://www.gamestop.com/shopmystore" id="anchor-banner">
+            <div id="promo-banner">
+              <picture>
+                <!-- desktop image -->
+                <source
+                  media="(min-width: 768px)"
+                  data-srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_1760x50_Sitewide_Strip_D.jpeg"
+                  type="image/jpeg"
+                  srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_1760x50_Sitewide_Strip_D.jpeg" />
+                <!-- mobile image -->
+                <source
+                  data-srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_575x50_Sitewide_Strip_M.jpeg"
+                  type="image/jpeg"
+                  srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_575x50_Sitewide_Strip_M.jpeg" />
+                <!-- default is mobile image -->
+                <img
+                  alt="Promo banner"
+                  data-src="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_575x50_Sitewide_Strip_M.jpeg"
+                  src="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_575x50_Sitewide_Strip_M.jpeg" />
+              </picture>
+            </div>
+            <div id="promo-text">
+              <span class="hero-top-text-top"><p>Pros, Save $25 When You Spend $250</p></span>
+              <span class="hero-top-text-bottom"><p>In-Store Or Online & Pick Up In-Store*</p></span>
+            </div>
+          </a>
+        </div>
+        <div id="hero-images">
+          <ul>
+            <li>
+              <a href="https://www.gamestop.com/graded-trading-cards">
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    type="image/webp"
+                    data-srcset="//media.gamestop.com/i/gamestop/Alt_BuyAndSellGradedCards-RefreshedCreative_WK05_1760x400_Hero_D.webp"
+                    srcset="//media.gamestop.com/i/gamestop/Alt_BuyAndSellGradedCards-RefreshedCreative_WK05_1760x400_Hero_D.webp" />
+                  <source
+                    type="image/webp"
+                    data-srcset="//media.gamestop.com/i/gamestop/BuyAndSellGradedCards-RefreshedCreative_WK05_551x413_Hero_M.webp"
+                    srcset="//media.gamestop.com/i/gamestop/BuyAndSellGradedCards-RefreshedCreative_WK05_551x413_Hero_M.webp" />
+                  <img
+                    alt="Graded Trading Cards"
+                    class="gme-v3-carousel-hero__img ls-is-cached lazyloaded"
+                    src="//media.gamestop.com/i/gamestop/Alt_BuyAndSellGradedCards-RefreshedCreative_WK05_1760x400_Hero_D.jpeg"
+                    fetchpriority="high" />
+                </picture>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gamestop.com/deals">
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    type="image/webp"
+                    data-srcset="//media.gamestop.com/i/gamestop/Deals_NewHeroBannersForHomepage-SiteOnly_WK06_1760x400_Hero_D.webp"
+                    srcset="//media.gamestop.com/i/gamestop/Deals_NewHeroBannersForHomepage-SiteOnly_WK06_1760x400_Hero_D.webp" />
+                  <source
+                    type="image/webp"
+                    data-srcset="//media.gamestop.com/i/gamestop/Deals_NewHeroBannersForHomepagePromo_Name_WK00_551x413_Hero_M.webp"
+                    srcset="//media.gamestop.com/i/gamestop/Deals_NewHeroBannersForHomepagePromo_Name_WK00_551x413_Hero_M.webp" />
+                  <img
+                    alt="Deals"
+                    class="gme-v3-carousel-hero__img ls-is-cached lazyloaded"
+                    src="//media.gamestop.com/i/gamestop/Deals_NewHeroBannersForHomepage-SiteOnly_WK06_1760x400_Hero_D.jpeg"
+                    fetchpriority="high" />
+                </picture>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gamestop.com/collectibles">
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    type="image/webp"
+                    data-srcset="//media.gamestop.com/i/gamestop/Collectibles_NewHeroBannersForHomepage-SiteOnly_WK06_1760x400_Hero_D.webp"
+                    srcset="//media.gamestop.com/i/gamestop/Collectibles_NewHeroBannersForHomepage-SiteOnly_WK06_1760x400_Hero_D.webp" />
+                  <source
+                    type="image/webp"
+                    data-srcset="//media.gamestop.com/i/gamestop/Collectibles_NewHeroBannersForHomepagePromo_Name_WK00_551x413_Hero_M.webp"
+                    srcset="//media.gamestop.com/i/gamestop/Collectibles_NewHeroBannersForHomepagePromo_Name_WK00_551x413_Hero_M.webp" />
+                  <img
+                    alt="Collectibles"
+                    class="gme-v3-carousel-hero__img ls-is-cached lazyloaded"
+                    src="//media.gamestop.com/i/gamestop/Collectibles_NewHeroBannersForHomepage-SiteOnly_WK06_1760x400_Hero_D.jpeg"
+                    fetchpriority="high" />
+                </picture>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gamestop.com/pro">
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    type="image/webp"
+                    data-srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_1760x400_Hero_D_2.webp"
+                    srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_1760x400_Hero_D_2.webp" />
+                  <source
+                    type="image/webp"
+                    data-srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_551x413_Hero_M_2.webp"
+                    srcset="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_551x413_Hero_M_2.webp" />
+                  <img
+                    alt="Pro Exclusive"
+                    class="gme-v3-carousel-hero__img ls-is-cached lazyloaded"
+                    src="//media.gamestop.com/i/gamestop/ProExclusive_Spend250Save25_EG_1760x400_Hero_D_2.jpeg"
+                    fetchpriority="high" />
+                </picture>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="shop-container">
+        <div class="shop-banner">
+          <a href="https://www.gamestop.com/gamestop-employee-favorites" class="shop-anchor-banner">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                type="image/webp"
+                data-srcset="//media.gamestop.com/i/gamestop/ShopGameStopPicks_NewHPSectionCreative_WK05_1736x224_Full_Blade_D.png_1736x224_Full_Blade_D.webp"
+                srcset="//media.gamestop.com/i/gamestop/ShopGameStopPicks_NewHPSectionCreative_WK05_1736x224_Full_Blade_D.png_1736x224_Full_Blade_D.webp" />
+              <source
+                type="image/webp"
+                data-srcset="//media.gamestop.com/i/gamestop/shopgspicks_WK00_551x200_Full_Blade_M.webp"
+                srcset="//media.gamestop.com/i/gamestop/shopgspicks_WK00_551x200_Full_Blade_M.webp" />
+              <img
+                alt=""
+                class="gme-v3-banner-carousel__img lazyloaded"
+                src="//media.gamestop.com/i/gamestop/ShopGameStopPicks_NewHPSectionCreative_WK05_1736x224_Full_Blade_D.png_1736x224_Full_Blade_D.jpeg"
+                fetchpriority="high" />
+            </picture>
+          </a>
+        </div>
+        <section id="shop-1">
+          <div class="shop-title">
+            <div class="shop-text">
+              <h2>GameStop Employee Favorites</h2>
+              <h2 id="shop-text-2">Shop Our Top Picks</h2>
+            </div>
+            <div class="anchor-shop-all">
+              <a href="https://www.gamestop.com/gamestop-employee-favorites">Shop All</a>
+            </div>
+          </div>
+          <ul class="shop-list">
+            <li>
+              <a href="https://www.gamestop.com/video-games/playstation-5/products/astro-bot---playstation-5/415222.html">
+                <img src="https://media.gamestop.com/i/gamestop/20008648/ASTRO-BOT---PlayStation-5?h=240&amp;w=240&amp;sm=clamp);" alt="Astro bot" class="shop-image" />
+                <h4 class="title">ASTRO BOT - PlayStation 5</h4>
+                <span class="price">$54.99</span>
+                <p><span class="exclusive-price">$52.24</span> for Pros</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gamestop.com/video-games/playstation-5/products/black-myth-wukong---playstation-5/419175.html">
+                <img
+                  src="https://media.gamestop.com/i/gamestop/20016376/Black-Myth-Wukong---PlayStation-5?h=240&amp;w=240&amp;sm=clamp);"
+                  alt="Black myth: wukong"
+                  class="shop-image" />
+                <h4 class="title">Black Myth: Wukong - PlayStation 5</h4>
+                <span class="price">$59.99</span>
+                <p><span class="exclusive-price">$56.99</span> for Pros</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gamestop.com/video-games/playstation-5/products/silent-hill-2---playstation-5/416523.html">
+                <img src="https://media.gamestop.com/i/gamestop/20005411/Silent-Hill-2---PlayStation-5?h=240&amp;w=240&amp;sm=clamp);" alt="Silent Hill 2" class="shop-image" />
+                <h4 class="title">Silent Hill 2 - PlayStation 5</h4>
+                <span class="price">$59.99</span>
+                <p><span class="exclusive-price">$56.99</span> for Pros</p>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.gamestop.com/gaming-accessories/controllers/playstation-5/products/sony-dualsense-wireless-controller-for-playstation-5---chroma-teal/416489.html">
+                <img src="https://media.gamestop.com/i/gamestop/20015959-4207ac98?h=240&amp;w=240&amp;sm=clamp);" alt="Sony DualSense Wireless Controller" class="shop-image" />
+                <h4 class="title">Sony DualSense Wireless Controller for PlayStation 5 - Chroma Teal</h4>
+                <span class="price">$79.99</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gamestop.com/video-games/nintendo-switch/products/the-legend-of-zelda-breath-of-the-wild---nintendo-switch/142004.html">
+                <img
+                  src="https://media.gamestop.com/i/gamestop/10141904/The-Legend-of-Zelda-Breath-of-the-Wild---Nintendo-Switch?h=240&amp;w=240&amp;sm=clamp);"
+                  alt="The Legend of Zelda: Breath of the Wild"
+                  class="shop-image" />
+                <h4 class="title">The Legend of Zelda: Breath of the Wild - Nintendo Switch</h4>
+                <span class="price">$44.99</span>
+                <p><span class="exclusive-price">$42.74</span> for Pros</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gamestop.com/video-games/nintendo-switch/products/mario-kart-8-deluxe---nintendo-switch/146184.html">
+                <img src="https://media.gamestop.com/i/gamestop/10141928/Mario-Kart-8?h=240&amp;w=240&amp;sm=clamp);" alt="Mario Kart 8 Deluxe" class="shop-image" />
+                <h4 class="title">Mario Kart 8 Deluxe - Nintendo Switch</h4>
+                <span class="price">$54.99</span>
+                <p><span class="exclusive-price">$52.24</span> for Pros</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gamestop.com/video-games/xbox-series-x%7Cs/products/metaphor-refantazio---xbox-series-x/416528.html">
+                <img src="https://media.gamestop.com/i/gamestop/20006808-2f0dce13?h=240&amp;w=240&amp;sm=clamp);" alt="Metaphor: ReFantazio" class="shop-image" />
+                <h4 class="title">Metaphor: ReFantazio - Xbox Series X</h4>
+                <span class="price">$49.99</span>
+                <p><span class="exclusive-price">$47.49</span> for Pros</p>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.gamestop.com/clothing/outerwear-hoodies/unisex-outerwear-hoodies/products/pokemon-snorlax-fuzzy-cosplay-unisex-hoodie-gamestop-exclusive/408369.html">
+                <img
+                  src="https://media.gamestop.com/i/gamestop/20012377/Pokemon-Snorlax-Fuzzy-Cosplay-Unisex-Hoodie-GameStop-Exclusive?h=240&amp;w=240&amp;sm=clamp);"
+                  alt="Pokemon Snorlax Hoodie"
+                  class="shop-image" />
+                <h4 class="title">Pokemon Snorlax Fuzzy Cosplay Unisex Hoodie GameStop Exclusive</h4>
+                <span class="price">$54.99</span>
+                <p><span class="exclusive-price">$52.24</span> for Pros</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gamestop.com/toys-games/stuffed-animals-plush/products/jazwares-pokemon-wave-8-in-plush-styles-may-vary/206723.html">
+                <img
+                  src="https://media.gamestop.com/i/gamestop/11097194/Jazwares-Pokemon-Wave-8-in-Plush-Styles-May-Vary?h=240&amp;w=240&amp;sm=clamp);"
+                  alt="Pokemon Wave 8-in Plush"
+                  class="shop-image" />
+                <h4 class="title">Jazwares Pokemon Wave 8-in Plush (Styles May Vary)</h4>
+                <span class="price">$14.99</span>
+                <p><span class="exclusive-price">$14.24</span> for Pros</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <div class="shop-banner">
+          <a href="https://www.gamestop.com/search/?pmid=30288" class="shop-anchor-banner">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                type="image/webp"
+                data-srcset="//media.gamestop.com/i/gamestop/BOGO50OffAllNintendoApparelApparelAccessoriesBoardGamesToysandHomeware_WK06_1736x224_Full_Blade_D.webp"
+                srcset="//media.gamestop.com/i/gamestop/BOGO50OffAllNintendoApparelApparelAccessoriesBoardGamesToysandHomeware_WK06_1736x224_Full_Blade_D.webp" />
+              <source
+                type="image/webp"
+                data-srcset="//media.gamestop.com/i/gamestop/BOGO50OffAllNintendoApparelApparelAccessoriesBoardGamesToysandHomeware_WK06_551x200_Half_Blade_M.webp"
+                srcset="//media.gamestop.com/i/gamestop/BOGO50OffAllNintendoApparelApparelAccessoriesBoardGamesToysandHomeware_WK06_551x200_Half_Blade_M.webp" />
+              <img
+                alt=""
+                class="gme-v3-banner-carousel__img lazyloaded"
+                src="//media.gamestop.com/i/gamestop/BOGO50OffAllNintendoApparelApparelAccessoriesBoardGamesToysandHomeware_WK06_1736x224_Full_Blade_D.jpeg"
+                fetchpriority="high" />
+            </picture>
+          </a>
+        </div>
+        <section id="shop-2">
+          <div id="pre-owned-container">
+            <article class="pre-owned-deal">
+              <a href="https://www.gamestop.com/search/?pmid=30292">
+                <div class="pre-owned-deal-text">
+                  <h3>PRE-OWNED ACCESORIES DEAL</h3>
+                  <span>Shop Now</span>
+                </div>
+                <div class="pre-owned-deal-image">
+                  <picture>
+                    <source
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                      data-srcset="//media.gamestop.com/i/gamestop/Save10onAllPreOwnedAccessorieswithPurchaseofAnyVideoGameConsole_WK07-08_856x480_2Up_Feature_D.webp"
+                      srcset="//media.gamestop.com/i/gamestop/Save10onAllPreOwnedAccessorieswithPurchaseofAnyVideoGameConsole_WK07-08_856x480_2Up_Feature_D.webp" />
+                    <source
+                      type="image/webp"
+                      data-srcset="//media.gamestop.com/i/gamestop/Save10onAllPreOwnedAccessorieswithPurchaseofAnyVideoGameConsole_WK07-08_856x480_2Up_Feature_D.webp"
+                      srcset="//media.gamestop.com/i/gamestop/Save10onAllPreOwnedAccessorieswithPurchaseofAnyVideoGameConsole_WK07-08_856x480_2Up_Feature_D.webp" />
+                    <img
+                      alt="Shop Now"
+                      class="gme-v3-lists-display__img ls-is-cached lazyloaded"
+                      src="//media.gamestop.com/i/gamestop/Save10onAllPreOwnedAccessorieswithPurchaseofAnyVideoGameConsole_WK07-08_856x480_2Up_Feature_D.jpeg" />
+                  </picture>
+                </div>
+              </a>
+            </article>
+            <article class="pre-owned-deal">
+              <a href="https://www.gamestop.com/search/?pmid=30293">
+                <div class="pre-owned-deal-text">
+                  <h3>PRE-OWNED ACCESORIES DEAL</h3>
+                  <span>Shop Now</span>
+                </div>
+                <div class="pre-owned-deal-image">
+                  <picture>
+                    <source
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                      data-srcset="//media.gamestop.com/i/gamestop/Save20onPreOwnedNintendoSwitchConsoles_WK07-08_856x480_2Up_Feature_D.webp"
+                      srcset="//media.gamestop.com/i/gamestop/Save20onPreOwnedNintendoSwitchConsoles_WK07-08_856x480_2Up_Feature_D.webp" />
+                    <source
+                      type="image/webp"
+                      data-srcset="//media.gamestop.com/i/gamestop/Save20onPreOwnedNintendoSwitchConsoles_WK07-08_856x480_2Up_Feature_D.webp"
+                      srcset="//media.gamestop.com/i/gamestop/Save20onPreOwnedNintendoSwitchConsoles_WK07-08_856x480_2Up_Feature_D.webp" />
+                    <img
+                      alt="Shop Now"
+                      class="gme-v3-lists-display__img ls-is-cached lazyloaded"
+                      src="//media.gamestop.com/i/gamestop/Save20onPreOwnedNintendoSwitchConsoles_WK07-08_856x480_2Up_Feature_D.jpeg" />
+                  </picture>
+                </div>
+              </a>
+            </article>
+          </div>
+          <div class="shop-banner">
+            <a href="https://www.gamestop.com/search/?q=assassins+creed+shadows&lang=default&start=0&sz=20" class="shop-anchor-banner">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                  data-srcset="//media.gamestop.com/i/gamestop/AssassinsCreedShadows_PO_WK50_1736x224_Full_Blade_D.webp"
+                  srcset="//media.gamestop.com/i/gamestop/AssassinsCreedShadows_PO_WK50_1736x224_Full_Blade_D.webp" />
+                <source
+                  type="image/webp"
+                  data-srcset="//media.gamestop.com/i/gamestop/AssassinsCreedShadows_PO_WK50_551x200_Full_Blade_M.webp"
+                  srcset="//media.gamestop.com/i/gamestop/AssassinsCreedShadows_PO_WK50_551x200_Full_Blade_M.webp" />
+                <img
+                  alt=""
+                  class="gme-v3-banner-carousel__img lazyloaded"
+                  src="//media.gamestop.com/i/gamestop/AssassinsCreedShadows_PO_WK50_1736x224_Full_Blade_D.jpeg"
+                  fetchpriority="high" />
+              </picture>
+            </a>
+          </div>
+          <div id="shop-now-container">
+            <article class="shop-now">
+              <a href="https://www.gamestop.com/video-games/nintendo-switch/products/donkey-kong-country-returns-hd---nintendo-switch/412550.html">
+                <div class="shop-now-text">
+                  <h3>DONKEY KONG COUNTRY RETURNS HD</h3>
+                  <span>Shop Now</span>
+                </div>
+                <div class="shop-now-image">
+                  <picture>
+                    <source
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                      data-srcset="//media.gamestop.com/i/gamestop/DonkeyKongCountryReturns_WK47_856x480_2Up_Feature_D.webp"
+                      srcset="//media.gamestop.com/i/gamestop/DonkeyKongCountryReturns_WK47_856x480_2Up_Feature_D.webp" />
+                    <source
+                      type="image/webp"
+                      data-srcset="//media.gamestop.com/i/gamestop/DonkeyKongCountryReturns_WK47_856x480_2Up_Feature_D.webp"
+                      srcset="//media.gamestop.com/i/gamestop/DonkeyKongCountryReturns_WK47_856x480_2Up_Feature_D.webp" />
+                    <img
+                      alt="Shop Now"
+                      class="gme-v3-lists-display__img ls-is-cached lazyloaded"
+                      src="//media.gamestop.com/i/gamestop/DonkeyKongCountryReturns_WK47_856x480_2Up_Feature_D.jpeg"
+                      fetchpriority="high" />
+                  </picture>
+                </div>
+              </a>
+            </article>
+            <article class="shop-now">
+              <a href="https://www.gamestop.com/links/astro-bot-bundle">
+                <div class="shop-now-text">
+                  <h3>ASTRO BOT BUNDLE</h3>
+                  <span>Shop Now</span>
+                </div>
+                <div class="shop-now-image">
+                  <picture>
+                    <source
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                      data-srcset="//media.gamestop.com/i/gamestop/AstroBotPS5Bundle_WK06-08_856x480_2Up_Feature_D.webp"
+                      srcset="//media.gamestop.com/i/gamestop/AstroBotPS5Bundle_WK06-08_856x480_2Up_Feature_D.webp" />
+                    <source
+                      type="image/webp"
+                      data-srcset="//media.gamestop.com/i/gamestop/AstroBotPS5Bundle_WK06-08_856x480_2Up_Feature_D.webp"
+                      srcset="//media.gamestop.com/i/gamestop/AstroBotPS5Bundle_WK06-08_856x480_2Up_Feature_D.webp" />
+                    <img
+                      alt="Shop Now"
+                      class="gme-v3-lists-display__img ls-is-cached lazyloaded"
+                      src="//media.gamestop.com/i/gamestop/AstroBotPS5Bundle_WK06-08_856x480_2Up_Feature_D.jpeg"
+                      fetchpriority="high" />
+                  </picture>
+                </div>
+              </a>
+            </article>
+          </div>
+        </section>
       </section>
     </main>
   </body>
